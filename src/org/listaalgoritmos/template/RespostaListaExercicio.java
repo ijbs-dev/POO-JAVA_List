@@ -203,9 +203,7 @@ public class RespostaListaExercicio {
 	    int maior = Integer.MIN_VALUE;
 	    int menor = Integer.MAX_VALUE;
 
-	    for (int i = 0; i < array.length; i++) {
-
-	        System.out.print(array[i] + " ");
+	    for (int i = 0; i < array.length; i++) {	        
 
 	        if (array[i] > maior) {
 	            maior = array[i];
@@ -215,9 +213,7 @@ public class RespostaListaExercicio {
 	        }
 	    }
 
-	    System.out.println("\n\nMaior numero da lista: " + maior);
-	    System.out.println("\nMenor numero da lista: " + menor);
-	    System.out.println("\n=========================================");
+	    System.out.print(maior + " " + menor + " ");	   
 	}
 
 
